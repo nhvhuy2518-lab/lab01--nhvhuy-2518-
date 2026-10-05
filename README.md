@@ -1,20 +1,36 @@
-# Study Assistant — starter
+# \## Setup 
 
-A starter repository for the CSC10014 Smart Virtual Assistant project.
+# Prerequisites: Python 3.10+, Git. 
 
-## Setup
+# &#x20; 
 
-TODO (Lab 1): write the exact steps a new teammate needs, from a fresh machine to
-running the app and the tests. Your partner will follow them without your help.
+# &#x20;   git clone https://github.com/nhvhuy2518-lab/lab01--nhvhuy-2518-.git 
 
-## Run
+# &#x20;   cd lab01-starter 
 
-TODO
+# &#x20;   python -m venv .venv 
 
-## Test
+# &#x20;   source .venv/bin/activate            # Windows: .venv\\Scripts\\Activate.ps1 
 
-TODO
+# &#x20;   pip install -r requirements.txt 
 
-## Project structure
+# &#x20;   pip install -e . 
 
-TODO
+# &#x20; 
+
+# \## Run 
+
+# &#x20;   python -m assistant "where is the library?" 
+
+# &#x20;   # -> Library: room B.201, open Mon-Sat 07:00-20:00. 
+
+# &#x20; 
+
+# \## Test 
+
+# &#x20;   pytest -q                              # -> 4 passed 
+
+# &#x20; 
+
+# \## Troubleshooting - "No module named assistant" -> you forgot `pip install -e .` or the venv is not active. - PowerShell blocks Activate.ps1 -> Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+
